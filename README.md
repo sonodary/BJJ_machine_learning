@@ -2,7 +2,7 @@
 This repository contains all of our work for our project on BJJ position classification using Neural Networks. 
 
 ## Goal
-[Brazilian Jiu-Jitsu](https://www.youtube.com/watch?v=3Ef_uYF7ABw&ab_channel=FloGrappling) is the world's foremost submission grappling sport. For our project, we aim to create a machine learning model that is able to accurately classify BJJ positions from images of two competitors. We will be using [this](https://vicos.si/resources/jiujitsu/) dataset of images of two athletes doing BJJ: 
+[Brazilian Jiu-Jitsu](https://www.youtube.com/watch?v=3Ef_uYF7ABw&ab_channel=FloGrappling) is the world's foremost submission grappling sport. For our project, we aim to create a machine learning model that is able to accurately classify BJJ positions from images of two competitors. We will be using [this](https://vicos.si/resources/jiujitsu/) dataset of images of two athletes doing BJJ.
 
 ## Dataset
 This dataset contains 120,279 labeled images of 2 jiu-jitsu athletes sparring in different combat positions. The images all have one of the following 18 labels:
