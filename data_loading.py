@@ -99,7 +99,7 @@ def importImages(filePath: str) -> tuple:
         filePath (str): filepath to folder with images. Must end with "/"
 
     Returns:
-        tuple(list, np.array): tuple containing a list of ids and an np.array with their respective image tensors.
+        tuple(np.array, np.array): tuple containing a list of ids and an np.array with their respective image tensors.
     """
     # Use Pathlib to avoid string concatenation
     path = Path(filePath)
@@ -174,6 +174,7 @@ def loadImageBatches(nums: list) -> tuple:
     """
     idArrays, imageArrays = [], []
     for num in nums:
+        print(num)
         ids, images = loadImageBatch(num)
 
         # Adding to arrays
@@ -188,5 +189,5 @@ def loadImageBatches(nums: list) -> tuple:
     return (totalIds, totalImages)
 
 
-if __name__ == "__main__":
-    ids, images = loadImageBatches([1])
+# if __name__ == "__main__":
+#     ids, images = loadImageBatches([1])
