@@ -116,11 +116,11 @@ def importImages(filePath: str) -> tuple:
         # Finding image id
         imgIds[idx] = int(name.replace(".jpg", ""))
 
-        # Opening image with OpenCV (faster than PIL)
+        # Opening image with OpenCV
         imgPath = str(path / name)
         rawImage = cv2.imread(imgPath, cv2.IMREAD_COLOR)
 
-        # Resizing to desired height and width with INTER_AREA method (faster than LANCZOS)
+        # Resizing to desired height and width with INTER_AREA method
         resizedImage = cv2.resize(
             rawImage, (IMG_HEIGHT, IMG_WIDTH), interpolation=cv2.INTER_AREA
         )
