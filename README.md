@@ -15,6 +15,7 @@ This dataset contains 120,279 labeled images of 2 jiu-jitsu athletes sparring in
 - `mount1` or `mount2`
 - `back1` or `back2`
 - `turtle1` or `turtle2`
+- `side_control1` or `side_control2`
 
 Where `1` or `2` indicates which of the athletes is in the specified position and the absence of a number indicates that both athletes are in the position. Due to the nature of BJJ, some positions require the numbers and others don't. These labels cover the most common positions in BJJ, however some of them are a little broad in how many positions they cover. Thus, a good addition to this dataset would be a more comprehensive labeling system.
 
