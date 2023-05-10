@@ -153,7 +153,7 @@ def importImagesBatches(nums: list) -> tuple:
     idArrays, imageArrays = [], []
     for num in nums:
         print(num)
-        ids, images = importImages(num)
+        ids, images = importImages(f'batch{num}/part_{num}/')
 
         # Adding to arrays
         idArrays.append(ids)
@@ -215,6 +215,9 @@ def loadImageBatches(nums: list) -> tuple:
     )
 
     return (totalIds, totalImages)
+
+
+
 
 
 
