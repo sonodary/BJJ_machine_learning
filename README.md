@@ -8,7 +8,7 @@ This repository contains all of our work for our project on BJJ position classif
 This dataset contains 120,279 labeled images of 2 jiu-jitsu athletes sparring in different combat positions. The images all have one of the following 18 labels:
 - `standing`
 - `takedown1` or `takedown2`
-- `open_guard1` or `openguard2`
+- `open_guard1` or `open_guard2`
 - `half_guard1` or `half_guard2`
 - `closed_guard1` or `closed_guard2`
 - `5050_guard`
